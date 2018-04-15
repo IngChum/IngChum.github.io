@@ -15,7 +15,7 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>**My Development and Research Story** <br> *keyword: Computer Science, Artificial Intelligence, Data Mining*</p>
+     <p><strong>My Development and Research Story</strong></p><br><p style="font-style:italic;">keyword: Computer Science, Artificial Intelligence, Data Mining*</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: Copyright 2018
 
