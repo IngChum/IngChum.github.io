@@ -31,13 +31,23 @@
         </li>
         {% endif %}
         {% endfor %} 
+		{% if site.theme_settings.research %}
+        <li class="separator">
+            |
+        </li>
+        <li>
+            <a class="clear" href="{{ site.url }}{{ site.baseurl }}/research">
+                Research
+            </a>
+        </li>
+        {% endif %}
         {% if site.theme_settings.portfolio %}
         <li class="separator">
             |
         </li>
         <li>
             <a class="clear" href="{{ site.url }}{{ site.baseurl }}/portfolio">
-                Portfolio
+                Portfolio*
             </a>
         </li>
         {% endif %}
